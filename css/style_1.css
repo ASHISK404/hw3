@@ -1,0 +1,47 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#yan{
+    color:rgba(134, 223, 229, 0.473);
+}
+table td{
+    color: aqua;
+}
+p[class*=duan]{
+    border-left:6px solid #2196F3;background-color: #606060;  border-right:6px solid #2196F3;
+}
+a.is:link{
+    color:rgb(0, 225, 255)
+}a.is:visited{
+    color:rgba(134, 223, 229, 0.473)
+}
+a.is:hover{
+    color: azure;
+}
+a.iss:link{
+color: aqua;
+}
+a.iss:visited{
+    color:rgb(0, 255, 234)
+}
+a.iss:hover{
+    color: aliceblue;
+}
+a.isss:link{
+    color: rgb(50, 126, 126);
+    }
+    a.isss:visited{
+        color:rgb(7, 159, 254)
+    }
+    a.isss:hover{
+        color: aliceblue;
+    }/*hover在visited和link之后，active在hover后*/
+div.sd{
+    display:hidden;
+    background-color: rgb(47, 46, 46);
+    padding: 10%;
+}
+div.sd:hover{
+    display: block;
+}

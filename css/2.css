@@ -1,0 +1,22 @@
+tr:nth-last-child(odd){
+    background-color: aqua;
+}tr:nth-last-child(even){
+    background-color: rgb(132, 155, 155);
+}
+p.wd::after{
+    content:"-wdsafe";
+}
+p.wd::before{
+    content:"wdsafe-";
+}
+p.wd::first-letter{
+    font-size: xxx-large;
+    color: aqua;
+}
+p.ww::first-line{
+    background-color: aqua;
+}
+p.ww::selection{
+    color: aqua;
+    background-color: bisque;
+}

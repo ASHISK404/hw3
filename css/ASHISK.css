@@ -1,0 +1,274 @@
+
+.one{
+    text-align: center;
+    padding: 18px 19px;
+    text-decoration: none;
+    font-size:20px;
+    color: rgb(118, 191, 244);
+}
+.l1{
+padding: 18px 145px;
+}
+.one:hover{
+    color: rgb(0, 0, 0);
+}
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1720px;
+}
+.background{
+    z-index: -1;
+}
+.app{
+    width: 100%;
+    height:80px;
+    position: relative;
+    display: flex;
+}
+.l1 a{
+    text-decoration: none;
+    font-weight: bold;
+    position:absolute;
+    left:0px;top:190px;
+}
+.a-line{
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-bottom: 6px;
+    background-color: rgb(0, 0, 0);
+}
+.one:hover .a-line{
+    width: 100%;
+    animation: move .5s ease;
+}
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    list-style: none;
+    transition: .5s;
+}
+ul.u{ 
+    position: absolute;
+    max-width: 1290px;
+    height: 122px;
+    left: 175px;
+bottom: 70px;
+}
+.main1{
+    position: absolute;
+    width: 1300px;
+    height: 122px;
+    left: 186px;
+    top: 200px;
+    z-index: -1;
+    background-color: rgb(254, 254, 255);
+}
+.main2{
+    margin: 0 auto;
+    position: absolute;
+    width: 1300px;
+    height: 1220px;
+    left: 175px;
+    top: 313px;
+    z-index: -1;
+    background-color: rgba(231, 231, 233, 0.486);
+}
+.u>li{
+    width: 20px;
+    height: 50px;
+    line-height: 22px;
+    text-align: center;
+    float: left;
+} 
+.u{
+    list-style: none;
+}
+.menu_two>li{
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 3px;
+    transition: 0.3s;
+}
+.u>li:hover .menu_two>li{
+height: 50px;
+}
+.a1{
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 3px;
+    transition: 0.3s;
+}
+.u>li:hover .a1{
+    height: 45px;
+    }
+    .a1{
+margin-top: -185px;
+position: absolute;
+right: 6px;
+font-size: 18px;
+color: rgb(68, 68, 68);z-index: 99;
+    }
+.a2{
+    height: 0;
+    overflow: hidden;
+    margin-bottom: 3px;
+    transition: 0.3s;
+}
+.u>li:hover .a2{
+    height: 45px;
+    }
+    .a2{
+margin-top: -140px;
+position: absolute;
+right: 6px;
+font-size: 18px;
+color: rgb(68, 68, 68);z-index: 99;
+    }
+    .a3{
+        height: 0;
+        overflow: hidden;
+        margin-bottom: 3px;
+        transition: 0.3s;
+    }
+    .u>li:hover .a3{
+        height: 45px;
+        }
+        .a3{
+    margin-top: -95px;
+    position: absolute;
+    right: 6px;
+    font-size: 18px;
+    color: rgb(68, 68, 68);z-index: 99;
+        }
+        .a4{
+            height: 0;
+            overflow: hidden;
+            margin-bottom: 3px;
+            transition: 0.3s;
+        }
+        .u>li:hover .a4{
+            height: 45px;
+            }
+            .a4{
+        margin-top: -50px;
+        position: absolute;
+        right: 6px;
+        font-size: 18px;
+        color: rgb(68, 68, 68);z-index: 99;
+            }
+            .a1:hover{
+                color: rgb(68, 126, 139);
+            }
+            .a2:hover{
+                color: rgb(68, 126, 139);
+            }            
+            .a3:hover{
+                color: rgb(68, 126, 139);
+            }            
+            .a4:hover{
+                color: rgb(68, 126, 139);
+            }
+            .a1{
+                background-color: rgba(240, 248, 255, 0.397);
+            }
+            .a3{
+                background-color: rgba(240, 248, 255, 0.397);
+            }
+            .a2{
+                background-color: rgba(240, 248, 255, 0.397);
+            }
+            .a4{
+                background-color: rgba(240, 248, 255, 0.397);
+            }
+            .music{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            
+            
+            }          
+           .player {
+                position: relative;
+                width: 260px;
+                min-height: 30px;
+                background:#fbfbfb30;
+                border: 2px solid #fff;
+                border-radius: 80px;
+                padding: 20px 30px;
+                box-shadow: -10px -10px 15px#fff,
+                            10px 10px 15px rgba(0,0,0,0.1),
+                            inset -5px -5px 15px #fff,
+                            inset 5px 5px 15px rgba(0,0,0,0.1) ;
+            }
+            
+            .btns {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+            
+            }
+            .btns div {
+                position: relative;
+                width: 40px;
+                height:40px;
+                border-radius: 50%;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #777;
+                cursor: pointer;
+                box-shadow: inset 0 -5px 5px rgba(0,0,0,0.1),
+                                  0 5px 10px rgba(0,0,0,0.1),
+                                  0 10px 15px rgba(0,0,0,0.1);
+            
+            }
+            .btns div:active,
+            .btns div.active
+             {
+                color:coral;
+                box-shadow: inset 0 -2px 5px rgba(0,0,0,0.15),
+                            inset 0 2px 5px rgba(0,0,0,0.15);
+            }
+            
+            .btns .playPause {
+                height: 50px;
+                width: 50px;
+            
+            }
+ .footer{
+    margin: 0 auto;
+    position: absolute;
+    width: 1300px;
+    height: 60px;
+    left: 175px;
+    top: 1534px;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+ }           
+ .main3{
+    margin: 0 auto;
+    position: absolute;
+    width: 1300px;
+    height: 5220px;
+    left: 175px;
+    top: 313px;
+    z-index: -1;
+    background-color: rgba(231, 231, 233, 0.486);
+}
+.footer2{
+    margin: 0 auto;
+    position: absolute;
+    width: 1300px;
+    height: 60px;
+    left: 175px;
+    top: 5533px;
+    z-index: -1;
+    background-color: rgb(255, 255, 255);
+ }           
+   
